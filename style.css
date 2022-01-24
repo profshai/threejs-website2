@@ -1,0 +1,76 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+body {
+    margin: 0;
+    /* overflow: hidden; */
+    color: black;
+}
+
+.shai {
+    font-weight: 900;
+}
+
+.absolute {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.social-icon a {
+    position: absolute;
+    background: white;
+    color: white;
+    box-shadow: -1px -1px 20px 0px rgba(0, 0, 0, 0.30);
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    transform-origin: 50% 50%;
+    transition: .15s ease-out;
+}
+
+i {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1000;
+    transition: .15s ease-out;
+}
+
+
+/* YouTube  */
+
+.youtube a {
+    transform: rotate(45deg) scale(1.05);
+    bottom: -40px;
+    left: -75px;
+    transform: rotate(45deg);
+}
+
+.youtube i {
+    color: lighten(#E62117, 10%);
+    bottom: 7px;
+    left: 7px;
+    color: #E62117;
+}
+
+
+/* Twitter */
+
+.twitter a {
+    transform: rotate(-45deg) scale(1.05);
+    bottom: -40px;
+    right: -75px;
+    transform: rotate(-45deg);
+}
+
+.twitter i {
+    color: lighten(#00ACED, 10%);
+    bottom: 7px;
+    right: 7px;
+    color: #00ACED;
+}
